@@ -4,4 +4,4 @@ ports:
     visibility: public
 tasks:
   - name: Start http server
-    command: npm install -g http-server && npx http-server &
+    command: npm install -g http-server && npx http-server
