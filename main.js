@@ -8,7 +8,7 @@ let enemyX = 0, enemyY = 0, enemyV = 2
 // 弾用の変数
 let shotW = 8, shotH = 16
 let shotX = 0, shotY = -100, shotV = -8
-function main () {
+function main() {
   ctx.clearRect(0, 0, WIDTH, HEIGHT)
 
   // 敵の描画
