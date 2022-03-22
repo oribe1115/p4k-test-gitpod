@@ -2,8 +2,6 @@ ports:
   - port: 8080
     onOpen: open-browser
     visibility: public
-tasks:
-  # - name: Install http-server
-  #   before: npm install -g http-server
-  - name: Start http server
-    command: npm install -g http-server && npx http-server
+# tasks:
+#   - name: Start http server
+#     command: npm install -g http-server && npx http-server
