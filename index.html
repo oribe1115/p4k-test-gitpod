@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+
+  <title>Invader</title>
+  <meta name="description" content="invader game">
+
+</head>
+
+<body>
+  <canvas id="canvas" width="480" height="320"></canvas>
+  <script src="logic.js"></script>
+  <script src="main.js"></script>
+</body>
+<style>
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    background: rgb(0, 0, 0);
+  }
+  #canvas {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+    border: solid 5px rgb(64, 64, 64);
+    image-rendering: pixelated;
+    background: white;
+  }
+</style>
+</html>
